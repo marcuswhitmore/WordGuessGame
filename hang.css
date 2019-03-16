@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: black;
+    padding: 20px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+}
+
+.alphabet > div {
+    display: inline-block;
+}
