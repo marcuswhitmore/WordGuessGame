@@ -25,19 +25,25 @@ const letterX = document.getElementById('xspan');
 const letterY = document.getElementById('yspan');
 const letterZ = document.getElementById('zspan');
 let words = [
-    "apple", "kiwi", "orange",
+    "apple", "kiwi", "orange", "1234567"
 ];
 
 // Chooses a random word from the array and finds the length
-var word = words[Math.floor(Math.random() * words.length)];
+let word = words[Math.floor(Math.random() * words.length)];
 
 
-// Create Empty Array and Fill it With Underscores
-var answerArray = [];
-for (var i = 0; i < word.length; i++) {
+// Create Empty Array and fill it with underscores
+
+let answerArray = [];
+for (let i = 0; i < word.length; i++) {
     answerArray[i] = "_";
 }
-var remainingLetters = word.length;
+
+function printArray() {
+    document.getElementById('answerArray');
+}
+
+printArray();
 
 // Game Loop
 
