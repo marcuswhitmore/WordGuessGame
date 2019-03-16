@@ -25,4 +25,5 @@ header > h1 {
 
 .alphabet > div:hover {
     background: hotpink;
+    cursor: pointer;
 }
