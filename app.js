@@ -28,15 +28,18 @@ let words = [
     "apple", "kiwi", "orange",
 ];
 
+// Chooses a random word from the array and finds the length
+var word = words[Math.floor(Math.random() * words.length)];
+
 
 // Create Empty Array and Fill it With Underscores
-function answerArray() {
-    let answerArray = [];
-    for (var i = 0; i < word.length; i++) {
+var answerArray = [];
+for (var i = 0; i < word.length; i++) {
     answerArray[i] = "_";
 }
-let remainingLetters = word.length;
-}
+var remainingLetters = word.length;
+
+// Game Loop
 
 // Add a handler for the 'click' event by providing a callback function.
 // Whenever the element is clicked, letter* function executes
