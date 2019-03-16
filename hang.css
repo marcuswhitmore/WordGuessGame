@@ -15,5 +15,14 @@ header > h1 {
 }
 
 .alphabet > div {
+    margin: 20px;
+    padding: 15px;
     display: inline-block;
+    border: black solid 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.alphabet > div:hover {
+    background: hotpink;
 }
