@@ -4,13 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Word Splash</title>
   <link rel="stylesheet" href="hang.css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
   
 </head>
 <body>
   <header>
-    <h1>Hangman Game</h1>
+    <h1>Word Splash</h1>
   </header>
 
 
@@ -42,7 +46,11 @@
     <div id="span">Y</div>
     <div id="span">Z</div>
   </div>
-  <div><span id="answerArray">\"this is where the array ___ goes\"</span></div>
+  <div id="wordArray"><span id="answerArray">"Press start to begin"</span></div>
+
+  <p>Click anywhere in this example.</p>
+  <p id="log"></p>
+
   <script src="app.js"></script>
 </body>
 </html>
