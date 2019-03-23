@@ -4,53 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Word Splash</title>
-  <link rel="stylesheet" href="hang.css">
+  <title>Word Guess Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="app.js">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Word Guess Game</h1>
+     <p>Use the alphabet below to guess the word, or click hint to get a clue. Categories are chosen by random. </p>
+  </div>
+  <div class="wrapper">
+     <div id="buttons">
+     </div>  
+     <p id="catagoryName"></p>
+     <div id="hold">
+     </div>
+     <p id="mylives"></p>
+     <p id="clue">Clue -</p>  
+     <div class="container">
+       <button id="hint">Hint</button>
+       <button id="reset">Play again</button>
+     </div>
+  </div>
+  <script src="app.js"></script>
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  
-</head>
-<body>
-  <header>
-    <h1>Word Splash</h1>
-  </header>
-
-
-  <div class="alphabet">
-    <div id="aspan">A</div>
-    <div id="bspan">B</div>
-    <div id="cspan">C</div>
-    <div id="dspan">D</div>
-    <div id="espan">E</div>
-    <div id="fspan">F</div>
-    <div id="gspan">G</div>
-    <div id="hspan">H</div>
-    <div id="ispan">I</div>
-    <div id="jspan">J</div>
-    <div id="kspan">K</div>
-    <div id="lspan">L</div>
-    <div id="mspan">M</div>
-    <div id="nspan">N</div>
-    <div id="ospan">O</div>
-    <div id="pspan">P</div>
-    <div id="qspan">Q</div>
-    <div id="span">R</div>
-    <div id="span">S</div>
-    <div id="span">T</div>
-    <div id="span">U</div>
-    <div id="span">V</div>
-    <div id="span">W</div>
-    <div id="span">X</div>
-    <div id="span">Y</div>
-    <div id="span">Z</div>
-  </div>
-  <div id="wordArray"><span id="answerArray">"Press start to begin"</span></div>
-
-  <p>Click anywhere in this example.</p>
-  <p id="log"></p>
-
-  <script src="app.js"></script>
 </body>
 </html>
+
+
+
