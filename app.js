@@ -39,7 +39,7 @@ window.onload = function () {
     }
       
     
-    // Select Catagory
+    // Select Category
     var selectCat = function () {
       if (chosenCategory === categories[0]) {
         catagoryName.innerHTML = "The Chosen Category Is Super Hot Peppers";
@@ -155,7 +155,7 @@ window.onload = function () {
   
      // Reset
   
-    document.getElementById('reset').onclick = function() {
+     document.getElementById('reset').onclick = function() {
       correct.parentNode.removeChild(correct);
       letters.parentNode.removeChild(letters);
       showClue.innerHTML = "";
